@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>My Web App</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'css/urembo.css' %}">
+
+</head>
+<body>
+<h1>We're a nimble team,doing mighty things.</h1>
+<p>We're empowering people to put Design first by helping them roll up their sleeves and apply customer-centric
+products design practices to the work they do every day.</p>
+<div class="container text-center">
+  <div class="row">
+    <div class="col">
+      {% load static %}
+        <img src="{% static "serv.jpeg" %}" alt=""height="200"width="200">
+        <h4>Services</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            Alias aliquid amet animi eaque iste laborum laudantium neque reiciendis repellendus voluptates. </p>
+        <p style="color: #d5d276">Lets work Together>></p>
+    </div>
+    <div class="col">
+       {% load static %}
+        <img src="{% static "foun.jpeg" %}" alt=""height="200"width="200">
+        <h4>Foundation</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            Alias aliquid amet animi eaque iste laborum laudantium neque reiciendis repellendus voluptates.</p>
+        <p style="color: cadetblue">Download Foundation>></p>
+
+    </div>
+    <div class="col">
+       {% load static %}
+        <img src="{% static "prod.jpeg" %}" alt=""height="200"width="200">
+        <h4>products</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            Alias aliquid amet animi eaque iste laborum laudantium neque reiciendis repellendus voluptates.</p>
+        <p style="color: #621f62">Explore Products>></p>
+    </div>
+      <div class="col">
+       {% load static %}
+        <img src="{% static "expo.jpeg" %}" alt=""height="200"width="200">
+          <h4>Expo</h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            Alias aliquid amet animi eaque iste laborum laudantium neque reiciendis repellendus voluptates.</p>
+          <p style="color: orangered">Start Learning>></p>
+    </div>
+
+  </div>
+</div>
+</body>
+</html>
